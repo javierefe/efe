@@ -4,4 +4,5 @@ package com.mitocode.ejercicio6.referencias.metodos;
 public interface IOperacion {
 
 	void imprimir(); 
+	
 }
