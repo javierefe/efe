@@ -82,6 +82,40 @@ public class Programa2 {
 			}
 		});
 		
+		
+		int x = 5;
+		int y = 5;
+		int r = Integer.compare(y, x);
+		System.out.println("Condicion: "+ r);
+		
+//		Criterios
+//		x < y = -1
+//		x = y = 0
+//		x > y = 1
+		
+		lista.sort((Empleado o1, Empleado o2) 
+				->  Integer.compare(o2.getEdad(), o1.getEdad()));
+		for (Empleado empleado : lista) {
+			System.out.println(empleado);
+		}
+		
+		String a = "A";
+		String b = "A";
+		System.out.println(a.compareTo(b));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		lista.sort((Empleado o1, Empleado o2) -> Integer.compare(o1.getEdad(), o2.getEdad()));
+//		for (Empleado empleado : lista) {
+//			System.out.println(empleado);
+//		}
 
 	}
 
